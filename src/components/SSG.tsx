@@ -2,9 +2,7 @@ import { CompanyInfo } from "@/types";
 import React from "react";
 
 const SSG = async () => {
-  const response = await fetch(`http://localhost:4000/companyInfo`, {
-    cache: "force-cache",
-  });
+  const response = await fetch(`http://localhost:4000/companyInfo`);
 
   if (!response.ok) {
     console.error("Failed to fetch company info");
@@ -18,6 +16,8 @@ const SSG = async () => {
     return <div>No company info available</div>;
   }
   const companyData: CompanyInfo = companyInfo[0];
+  console.log("response", response);
+  console.log("companyInfo", companyInfo);
 
   return (
     <div className="mt-8">

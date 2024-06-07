@@ -1,7 +1,8 @@
+import CSR from "@/components/CSR";
 import React from "react";
 
 const todosCSRPage = () => {
-  return <div>todosCSRPage</div>;
+  return <CSR />;
 };
 
 export default todosCSRPage;

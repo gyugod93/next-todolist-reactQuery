@@ -4,6 +4,11 @@
       "id": "1",
       "name": "주식회사 팀스파르타",
       "description": "우리회사에 대한 설명입니다. blablabla~~~~~~"
+    },
+    {
+      "id": "2",
+      "name": "주식회사 고트",
+      "description": "우리회사에 ㅎㅇ대한 설명입니다. blablabla~~~~~~"
     }
   ],
   "todos": [
