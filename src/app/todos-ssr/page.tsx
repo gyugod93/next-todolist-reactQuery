@@ -1,7 +1,8 @@
+import SSR from "@/components/SSR";
 import React from "react";
 
 const todosSSRPage = () => {
-  return <div>todosSSRPage</div>;
+  return <SSR />;
 };
 
 export default todosSSRPage;
